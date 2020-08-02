@@ -1,0 +1,28 @@
+.login-form {
+  margin-top: 25px;
+}
+.form-control {
+  margin: 3px 0;
+}
+.form-control input{
+  border: none;
+  border-bottom: 1px solid #bdbcbc;
+  margin: 10px 0;
+  height: 25px;
+}
+.form-control button {
+  border: none;
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  background-color: #26ae60;
+}
+.form-help {
+  font-size: 14px;
+  margin-top: 25px;
+  color: #616161;
+}
+.form-help span {
+  font-weight: bold;
+  cursor: pointer;
+}

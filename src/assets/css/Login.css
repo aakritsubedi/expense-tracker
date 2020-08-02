@@ -1,0 +1,49 @@
+.login-wrapper {
+  display: flex;
+  height: 100vh;
+  max-height: 100vh;
+}
+.login-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: inherit;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-image: url('../images/expenseTracker.svg');
+}
+.login-title {
+  font-size: 50px;
+  font-family: 'Dancing Script', cursive;
+}
+.login-tagline {
+  font-size: 18px;
+  color: #7c7c7c;
+  display: block;
+  font-family: roman;
+}
+.login-signup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  height: inherit;
+  width: 60%;
+}
+.logo {
+  height: 125px;
+  width: 125px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .login-image {
+    display: none;
+  }
+  .login-signup {
+    width: 100%;
+  }
+}
