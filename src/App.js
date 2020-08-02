@@ -1,10 +1,11 @@
 import React from 'react';
 
+import Router from 'components/Router';
 
 function App() {
   return (
     <div>
-      <h1>Expense Tracker</h1>
+      <Router />
     </div>
   );
 }
