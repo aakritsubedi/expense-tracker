@@ -9,7 +9,7 @@ import "assets/css/Dashboard.css";
 
 function Dashboard(props) {
   const [user, setUser] = useState({});
-  const [taskMenu, setTaskMenu] = useState(false);
+  const [taskMenu, setTaskMenu] = useState(true);
 
   useEffect(() => {
     //if user is available the set user else logout
@@ -32,7 +32,7 @@ function Dashboard(props) {
         <b>Your Email: </b>{user.email}
       </div>
       <div className={taskMenu ? 'task-container' : 'no-task'}>
-        {taskMenu && <Task />}
+        {taskMenu && <Task user={user} />}
         </div>
     </div>
   );

@@ -10,11 +10,73 @@
   border-bottom: 1px solid #bababa;
 }
 .task-title {
-  font-size: 30px;
+  font-size: 25px;
   display: block;
   font-weight: bold;
-  line-height: 60px;
+  line-height: 30px;
+}
+.task-username {
+  font-size: 14px;
+  color: #bababa;
 }
 .task-body {
+  padding: 5px 0;
+}
+
+/* Add Task */
+.addtask-form {
+  display: flex;
   padding: 5px 10px;
+  border-bottom: 1px solid #bababa;
+}
+.addtask-form textarea {
+  flex: 1;
+  border: none;
+  resize: none;
+  padding: 10px 5px;
+  border-bottom: 1px solid #bababa;
+}
+.addtask-form textarea:focus {
+  border-bottom: 1px solid rgb(62, 62, 253);
+}
+.addtask-form button {
+  flex: 0;
+  border: none;
+  padding: 0 3px;
+  cursor: pointer;
+  background-color: #ffffff;
+}
+/* Task List */
+.task-lists {
+  padding: 5px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  list-style: none;
+  overflow-y: scroll;
+  height: calc(100vh - 175px);
+}
+.task-lists li {
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+.task-lists li input {
+  margin-right: 5px;
+  height: 10px;
+  width: 10px;
+  cursor: pointer;
+}
+.task-lists .task-info {
+  margin-top: 10px;
+}
+.task-lists li span {
+  color: #9b9b9b;
+}
+.task-delete-btn {
+  float: right;
+  color: rgb(204, 66, 66);
+  cursor: pointer;
+}
+.task-delete-btn:hover {
+  color: rgb(252, 14, 14);
 }
