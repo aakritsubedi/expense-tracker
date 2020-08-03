@@ -41,6 +41,7 @@ function LoginForm({ toggleForm, forgetPassword, login }) {
           <span onClick={resetPassword}>Forget a Password</span><br/>(Type your email in above email field.)
         </span>
         <br/>
+        <br/>
         <hr/>
         <span className="form-help">
           Create an account? <span onClick={toggleForm}>SignUp</span>

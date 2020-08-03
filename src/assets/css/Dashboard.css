@@ -1,0 +1,16 @@
+.dashbaord-main {
+  display: flex;
+  flex-direction: row;
+}
+.main-container {
+  flex: 4;
+}
+.main-container-with-task {
+  flex: 1;
+}
+.task-container {
+  flex: 1;
+}
+.no-task {
+  display: none;
+}
