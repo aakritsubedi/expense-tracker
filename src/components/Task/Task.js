@@ -72,7 +72,7 @@ function Task({ user }) {
                 />
                 {todo.task}
                 <div className="task-info">
-                  <span>{timeConverter(todo.timestamp.seconds)}</span>
+                  <span>{todo.timestamp && timeConverter(todo.timestamp.seconds)}</span>
                   <FaTrash onClick={(e) => deleteTask(e, id)} className="task-delete-btn" />
                 </div>
               </li>
